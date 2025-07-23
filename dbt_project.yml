@@ -8,4 +8,5 @@ models:
   SnowFlakeDBTTEST:
     snowflaketest:
       200_Filter:
-        +schema: INFORMATION_SCHEMA   # 👈 This is the user-defined schema name
+        +database: SNOWFLAKE_LEARNING_DB
+        +schema: MY_NEW_SCHEMA
