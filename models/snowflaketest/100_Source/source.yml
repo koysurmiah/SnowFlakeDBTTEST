@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: KOYSURMIAH_LOAD_SAMPLE_DATA_FROM_S3     # <-- This stays
+    database: SNOWFLAKE_LEARNING_DB               # <-- Your database
+    schema: KOYSURMIAH_LOAD_SAMPLE_DATA_FROM_S3   # <-- This is the actual schema
+    tables:
+      - name: MENU                                 # <-- Your table
