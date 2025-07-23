@@ -1,6 +1,6 @@
 {{ config(
     materialized='table',
-    schema='INFORMATION_SCHEMA',   -- 👈 Your desired schema
+    schema='INFORMATION_SCHEMA',
     alias='MENU2'
 ) }}
 
